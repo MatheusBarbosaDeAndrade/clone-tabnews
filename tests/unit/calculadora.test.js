@@ -1,4 +1,4 @@
-const calculadora = require("../models/calculadora.js");
+const calculadora = require("../../models/calculadora.js");
 
 test("a soma tem que dar 10", () => {
   let soma = calculadora.soma(5, 5);
